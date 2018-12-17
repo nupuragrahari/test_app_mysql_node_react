@@ -4,8 +4,8 @@ const fs = require('fs');
 // First you need to create a connection to the db
 var connection = mysql.createConnection({
     host: "localhost",
-    user: "nodeuser",
-    password: "nodeuser@1234",
+    user: "*****",
+    password: "*****",
     database: "newdb"
 });
 

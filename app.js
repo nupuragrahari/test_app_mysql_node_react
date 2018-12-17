@@ -26,7 +26,27 @@ app.use('/users', usersRouter);
 app.use(function(req, res, next) {
   next(createError(404));
 });
+// uncomment the below lines to upload csv data to mysql
 
+//var csvParser = require('csv-parse');
+
+// fs.readFile(filePath, {
+//     encoding: 'utf-8'
+// }, function(err, csvData) {
+//     if (err) {
+//         console.log(err);
+//     }
+//
+//     csvParser(csvData, {
+//         delimiter: ','
+//     }, function(err, data) {
+//         if (err) {
+//             console.log(err);
+//         } else {
+//             console.log(data);
+//         }
+//     });
+// });
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development
