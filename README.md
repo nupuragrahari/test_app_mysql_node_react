@@ -3,7 +3,7 @@ To start the server for this code:
 2. install node
 3. cd into the code directory on your machine
 4. run 'npm i' in your terminal
-5  run 'npm start' in your terminal
+5. run 'npm start' in your terminal
 
 To upload the data in mysql:
 
